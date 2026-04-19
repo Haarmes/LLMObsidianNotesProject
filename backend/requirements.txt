@@ -1,0 +1,8 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-dotenv==1.0.1
+pydantic==2.10.4
+langchain-community==0.3.21
+langchain-openai==0.3.13
+langchain-core
+azure-search-documents==11.6.0

@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #060509;
+  --surface: #161027;
+  --border: #3b2a5f;
+  --text: #efe8ff;
+  --text-muted: #b7a7d9;
+  --user-bg: #2f1c4b;
+  --user-border: #8a5cf7;
+  --accent: #a46bff;
+  --error: #f87171;
+  --radius: 10px;
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --mono: 'SF Mono', 'Fira Code', 'Fira Mono', monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at 15% 10%, rgba(140, 80, 255, 0.22), transparent 35%),
+    radial-gradient(circle at 85% 85%, rgba(98, 41, 196, 0.28), transparent 45%),
+    var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
